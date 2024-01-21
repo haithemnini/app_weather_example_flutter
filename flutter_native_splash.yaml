@@ -1,0 +1,12 @@
+# flutter_native_splash: ^1.2.1
+
+# Configuration for the flutter_native_splash package.
+flutter_native_splash:
+  # iOS & Android settings below 12.0
+  color: "#ffffff"  # The background color of the splash screen.
+  image: "assets/splash.png"  # The image used as the background of the splash screen.
+  
+  # iOS & Android settings 12.0 and above
+  android_12:
+    color: "#ffffff"  # The background color of the splash screen for Android 12 and above.
+    image: "assets/splash_android12.png"  # The image used as the background of the splash screen for Android 12 and above.

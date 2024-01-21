@@ -1,0 +1,112 @@
+# Define information about the app
+name: weather_trackr
+description: ""
+publish_to: 'none'
+
+# App version
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.2 <4.0.0'
+
+dependencies:
+  # Flutter SDK
+  flutter:
+    sdk: flutter
+  
+  # BLoC state management library
+  bloc: ^8.0.1
+  
+  # Code generation for BLoC
+  build_runner: ^2.4.7
+  
+  # Provides information about the network connectivity
+  connectivity_plus: ^5.0.2
+  
+  # Icons for Cupertino (iOS-style) widgets
+  cupertino_icons: ^1.0.2
+  
+  # Powerful HTTP client for Dart
+  dio: ^5.4.0
+  
+  # State management library for Flutter
+  flutter_bloc: ^8.1.3
+  
+  # Flutter Native Splash Screen
+  flutter_native_splash: ^2.3.8
+  
+  # Flutter Screen Utilities
+  flutter_screenutil: ^5.9.0
+  
+  # Toast notifications for Flutter
+  flutter_styled_toast: ^2.2.1
+  
+  # SVG rendering for Flutter
+  flutter_svg: ^2.0.9
+  
+  # Code generation for immutable classes
+  freezed: ^2.4.5
+  freezed_annotation: ^2.4.1
+  
+  # Geocoding library for Flutter
+  geocoding: ^2.1.1
+  
+  # Provides location information
+  geolocator: ^10.1.0
+  
+  # Service locator for dependency injection
+  get_it: ^7.6.4
+  
+  # Google Fonts for Flutter
+  google_fonts: ^6.1.0
+  
+  # Internationalization and localization
+  intl: ^0.18.1
+  
+  # Code generation for JSON serialization
+  json_annotation: ^4.8.1
+  json_serializable: ^6.7.1
+  
+  # Lottie animations for Flutter
+  lottie: ^2.7.0
+  
+  # Pretty Dio logger for debugging
+  pretty_dio_logger: ^1.3.1
+  
+  # Retrofit HTTP client generator
+  retrofit: ^4.0.3
+  
+  # Code generation for Retrofit
+  retrofit_generator: ^8.0.5
+  
+  # Persistent storage for Flutter
+  shared_preferences: ^2.2.2
+  
+  # Sliding up panel for Flutter
+  sliding_up_panel: ^2.0.0+1
+
+dev_dependencies:
+  # Flutter linting rules
+  flutter_lints: ^2.0.0
+  
+  # Testing framework for Flutter
+  flutter_test:
+    sdk: flutter
+    
+  # Flutter launcher icons for custom app icons
+  flutter_launcher_icons: ^0.13.1
+
+# Configuration for Flutter Launcher Icons
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/weather_trackr_icon.png"
+
+# Configuration for Flutter
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+    - assets/svgs/
+    - assets/images/
+    - assets/lottie/
